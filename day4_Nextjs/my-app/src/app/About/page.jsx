@@ -21,9 +21,9 @@ export default function AboutPage() {
 import Hitung from "@/components/Counter"
 
 export default async function AboutPage() {
-    const res = await fetch("http://localhost:3000/api/halo")
+    /* const res = await fetch("http://localhost:3000/api/halo")
     const data = await res.json()
-    console.log("Data dari API route ", data)
+    console.log("Data dari API route ", data) */
 
     return (
         <div className="flex bg-black flex-col min-h-screen justify-center items-center">
